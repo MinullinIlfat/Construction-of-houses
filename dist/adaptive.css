@@ -1,0 +1,705 @@
+@media screen and (max-width: 1800px) {
+  .one-bg .header .menu-bg {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .one-bg .header .menu-bg {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .one-bg .header .menu-bg {
+    width: 250px;
+  }
+  .one-bg .header .close {
+    padding-left: 25px;
+  }
+  .one-bg .container .menu {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .one-bg .header .burger {
+    margin-right: 130px;
+  }
+  .one-bg .header .logo {
+    margin: 0 auto;
+  }
+  .one-bg .container .main .main-info {
+    margin: 0 auto;
+  }
+  .first-bg .container {
+    padding: 0 15px !important;
+  }
+  .first-bg .container .steps .steps-items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+  }
+  .first-bg .container .building-technology .technologies .arrow,
+  .first-bg .container .building-technology .technologies .technology-item {
+    display: none;
+  }
+  .first-bg .container .building-technology .technologies .technology-show-first {
+    display: block;
+  }
+  .first-bg .container .building-technology .technologies .arrows-one,
+  .first-bg .container .building-technology .technologies .arrows-two,
+  .first-bg .container .building-technology .technologies .arrows-three,
+  .first-bg .container .building-technology .technologies .arrows-four,
+  .first-bg .container .building-technology .technologies .arrows-five {
+    cursor: pointer;
+  }
+  .first-bg .container .building-technology .technologies .arrows-one .ellipse-one:active .ellipse-two,
+  .first-bg .container .building-technology .technologies .arrows-two .ellipse-one:active .ellipse-two,
+  .first-bg .container .building-technology .technologies .arrows-three .ellipse-one:active .ellipse-two,
+  .first-bg .container .building-technology .technologies .arrows-four .ellipse-one:active .ellipse-two,
+  .first-bg .container .building-technology .technologies .arrows-five .ellipse-one:active .ellipse-two {
+    border: 1px solid #fcedcb;
+  }
+  .first-bg .container .building-technology .technologies .arrows-one .ellipse-one:active .ellipse-two .ellipse-three,
+  .first-bg .container .building-technology .technologies .arrows-two .ellipse-one:active .ellipse-two .ellipse-three,
+  .first-bg .container .building-technology .technologies .arrows-three .ellipse-one:active .ellipse-two .ellipse-three,
+  .first-bg .container .building-technology .technologies .arrows-four .ellipse-one:active .ellipse-two .ellipse-three,
+  .first-bg .container .building-technology .technologies .arrows-five .ellipse-one:active .ellipse-two .ellipse-three {
+    background-color: #fcedcb;
+  }
+  .first-bg .container .swiper-button-prev,
+  .first-bg .container .swiper-button-next {
+    display: none;
+  }
+  .first-bg .excursion .image .points {
+    display: none;
+  }
+  .first-bg .footer {
+    padding: 51px 15px;
+  }
+  .first-bg .footer .logo {
+    margin: 0 auto;
+  }
+  .first-bg .footer .phone {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .first-bg .container .slider .swiper-container {
+    display: none;
+  }
+  .first-bg .container .slider .fade {
+    display: block;
+    max-width: 482px;
+    margin: 0 auto;
+    opacity: 1;
+  }
+  .first-bg .container .slider .fade .fade-slide {
+    max-width: 482px;
+    height: 406px;
+    margin-bottom: 30px;
+  }
+  .first-bg .container .slider .fade .fade-slide img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .first-bg .container {
+    padding: 0 15px !important;
+  }
+  .first-bg .container .my-projects .projects .project,
+  .first-bg .container .my-projects .projects .project-hidden {
+    grid-column-gap: 20px;
+  }
+  .first-bg .container .form {
+    display: grid;
+  }
+  .first-bg .container .form .image {
+    margin: 0 auto;
+  }
+  .first-bg .container .form .text {
+    max-width: 512px;
+    margin: 40px auto 0 auto;
+  }
+  .first-bg .container .form .text input,
+  .first-bg .container .form .text .btn {
+    width: 290px;
+  }
+  .first-bg .container .form .text .agreement label p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .first-bg .container .my-projects .projects .project,
+  .first-bg .container .my-projects .projects .project-hidden {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .first-bg .container .my-projects .projects .project .project-image,
+  .first-bg .container .my-projects .projects .project-hidden .project-image {
+    order: 1;
+  }
+  .first-bg .container .my-projects .projects .project .project-image .project-images,
+  .first-bg .container .my-projects .projects .project-hidden .project-image .project-images {
+    justify-content: center;
+  }
+  .first-bg .container .my-projects .projects .project .project-text,
+  .first-bg .container .my-projects .projects .project-hidden .project-text {
+    order: 2;
+    margin: 40px auto 0 auto;
+  }
+  .first-bg .container .my-projects .projects .project .project-text a,
+  .first-bg .container .my-projects .projects .project-hidden .project-text a {
+    margin: 20px auto 0 auto;
+  }
+  .first-bg .container .guarantees .second-guarantees {
+    padding: 0;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .first-bg .container .building-technology .technologies .technology-items {
+    display: grid;
+  }
+  .first-bg .container .building-technology .technologies .technology-items .technology-one {
+    position: relative;
+    display: grid;
+    margin: 15px auto 0 auto;
+    max-width: 290px;
+    order: 2;
+    background: #313139;
+    box-sizing: border-box;
+    padding: 15px 16px 19px 16px;
+    top: 0;
+  }
+  .first-bg .container .building-technology .technologies .technology-items .technology-one::before {
+    content: "";
+    border: solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 41%;
+    border-bottom-color: #313139;
+    border-width: 9px;
+    margin-left: -9px;
+  }
+  .first-bg .container .building-technology .technologies .technology-items .technology-item:not(:first-child) {
+    display: none;
+  }
+  .first-bg .container .building-technology .technologies .technology-items .technology-item .technology-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .first-bg .container .building-technology .technologies .technology-items .technology-item .technology-text {
+    max-width: 258px;
+    font-size: 14px;
+  }
+  .first-bg .container .steps .steps-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 936px) {
+  .first-bg .container .building-technology .technologies .technology-show-second,
+  .first-bg .container .building-technology .technologies .technology-show-third {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .one-bg .bg-shadow {
+    bottom: -72px;
+  }
+  .one-bg .bg-shadow img {
+    height: 193px;
+  }
+  .one-bg .container .main {
+    padding: 148px 15px 280px 15px;
+  }
+  .one-bg .container .main .social {
+    display: none;
+  }
+  .one-bg .container .main .main-info .main-text {
+    margin: 15px 0 30px 0;
+  }
+  .first-bg .container .my-projects {
+    padding: 31px 0 91px 0;
+  }
+  .first-bg .container .my-projects h2 {
+    margin-bottom: 50px;
+  }
+  .first-bg .container .my-projects .projects .project,
+  .first-bg .container .my-projects .projects .project-hidden {
+    margin-bottom: 60px;
+  }
+  .first-bg .container .my-projects .projects .project .project-text .project-text-info,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .project-text-info {
+    margin: 30px 0 40px 0;
+  }
+  .first-bg .container .my-projects .projects .project .project-text .dimensions,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .dimensions {
+    margin-bottom: 40px;
+  }
+  .first-bg .container .building-technology {
+    padding-bottom: 217px;
+  }
+  .first-bg .container .building-technology h2 {
+    margin-bottom: 42px;
+  }
+  .first-bg .container .steps {
+    padding-bottom: 90px;
+  }
+  .first-bg .container .steps h2 {
+    margin-bottom: 102px;
+  }
+  .first-bg .container .guarantees {
+    padding-bottom: 100px;
+  }
+  .first-bg .container .guarantees h2 {
+    margin-bottom: 40px;
+  }
+  .first-bg .container .form {
+    padding-bottom: 0;
+  }
+  .first-bg .container .excursion {
+    padding: 90px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .first-bg .footer {
+    display: grid;
+    text-align: center;
+    padding: 50px 0 82px 0;
+  }
+  .first-bg .footer .logo .social {
+    margin: 45px 0 50px 0;
+  }
+  .first-bg .footer .office {
+    order: 2;
+  }
+  .first-bg .footer .office span {
+    margin: 15px 0 49px 0;
+  }
+  .first-bg .footer .phone {
+    order: 3;
+    text-align: center;
+    margin-left: 0;
+  }
+  .first-bg .footer .phone .active {
+    justify-content: center;
+  }
+  .popup {
+    padding: 54px 15px 21px 15px;
+    max-width: 305px;
+    margin-left: -153px;
+  }
+  .popup .popup-close img {
+    width: 15px;
+    height: 15px;
+  }
+  .popup .popup-form .popup-title {
+    font-size: 14px;
+  }
+  .popup .popup-form input,
+  .popup .popup-form .btn {
+    width: 272px;
+    font-size: 14px;
+  }
+  .popup .popup-form label span {
+    margin-right: 21px;
+  }
+  .popup .popup-form label p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .one-bg .header .burger {
+    margin-right: 80px;
+  }
+  .first-bg .container .my-projects .projects .project .project-image a img {
+    width: 100%;
+  }
+  .first-bg .container .my-projects .projects .project .project-image .project-images a:not(:last-child) {
+    margin-right: 13px;
+  }
+  .first-bg .container .my-projects .projects .project .project-image .project-images a img {
+    margin-right: 13px !important;
+  }
+  .first-bg .container .slider .fade .slick-prev:before,
+  .first-bg .container .slider .fade .slick-next:before,
+  .first-bg .container .slider .fade .slick-prev,
+  .first-bg .container .slider .fade .slick-next {
+    display: none !important;
+  }
+  .first-bg .container .guarantees {
+    display: grid;
+    padding-bottom: 100px;
+  }
+  .first-bg .container .guarantees h2 {
+    margin-bottom: 40px;
+  }
+  .first-bg .container .guarantees .first-guarantees {
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .first-bg .container .guarantees .second-guarantees {
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+  }
+  .first-bg .container .guarantees .second-guarantees .second-item {
+    margin: 40px 0;
+  }
+  .first-bg .container .building-technology .technologies {
+    width: 400px;
+  }
+  .first-bg .container .building-technology .technologies img {
+    width: 100%;
+  }
+  .first-bg .container .building-technology .technologies .arrows-one {
+    top: 57px;
+    left: -117px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-two {
+    top: 210px;
+    left: -34px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-three {
+    top: 326px;
+    left: 153px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-four {
+    right: 145px;
+    bottom: 172px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-five {
+    right: 85px;
+    top: 90px;
+  }
+  .first-bg .container .building-technology .technologies .technology-show {
+    left: 52px;
+  }
+  .first-bg .container .form .image img {
+    width: 100%;
+  }
+  .first-bg .footer {
+    display: grid;
+    text-align: center;
+    padding: 50px 0 82px 0;
+  }
+  .first-bg .footer .logo .social {
+    margin: 45px 0 50px 0;
+  }
+  .first-bg .footer .office {
+    order: 2;
+  }
+  .first-bg .footer .office span {
+    margin: 15px 0 49px 0;
+  }
+  .first-bg .footer .phone {
+    order: 3;
+    text-align: center;
+  }
+  .first-bg .footer .phone .active {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 574px) {
+  .one-bg .header .menu-bg {
+    width: 191px;
+  }
+  .one-bg .container .main .main-info h1 {
+    font-size: 26px;
+  }
+  .one-bg .container .main .main-info .main-text {
+    font-size: 14px;
+  }
+  .one-bg .container .main .main-info .btn {
+    width: 228px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .pdf {
+    font-size: 15px;
+  }
+  .first-bg .container .my-projects h2 {
+    font-size: 30px;
+  }
+  .first-bg .container .my-projects .projects .project .project-text h3,
+  .first-bg .container .my-projects .projects .project-hidden .project-text h3 {
+    font-size: 18px;
+  }
+  .first-bg .container .my-projects .projects .project .project-text .project-text-info,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .project-text-info {
+    font-size: 14px;
+  }
+  .first-bg .container .my-projects .projects .project .project-text .dimensions .square,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .dimensions .square,
+  .first-bg .container .my-projects .projects .project .project-text .dimensions .bedrooms,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .dimensions .bedrooms,
+  .first-bg .container .my-projects .projects .project .project-text .dimensions .bathroom,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .dimensions .bathroom {
+    font-size: 15px;
+    width: 85px;
+    height: 85px;
+  }
+  .first-bg .container .my-projects .projects .project .project-text .btn,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .btn,
+  .first-bg .container .my-projects .projects .project .project-text .pdf,
+  .first-bg .container .my-projects .projects .project-hidden .project-text .pdf {
+    width: 290px;
+  }
+  .first-bg .container .my-projects .projects .view-more {
+    font-size: 15px;
+  }
+  .first-bg .container .slider {
+    padding-bottom: 90px;
+  }
+  .first-bg .container .slider h2 {
+    margin-bottom: 40px;
+  }
+  .first-bg .container .slider .fade {
+    max-width: 290px;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: #313139;
+    padding: 15px 14px 15px 15px;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .divider {
+    width: 1px;
+    height: 56px;
+    background: white;
+    margin: 0 20px 0 23px;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .left,
+  .first-bg .container .slider .fade .fade-slide .swiper-content .right {
+    font-size: 14px;
+    font-family: Museosanscyrl-500, sans-serif;
+    color: #ffffff;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .left div:first-child,
+  .first-bg .container .slider .fade .fade-slide .swiper-content .right div:first-child {
+    margin-bottom: 15px;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .left div:last-child,
+  .first-bg .container .slider .fade .fade-slide .swiper-content .right div:last-child {
+    font-size: 14px;
+    font-family: Museosanscyrl-300, sans-serif;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .left {
+    width: 129px;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .left div:last-child {
+    width: 95px;
+  }
+  .first-bg .container .slider .fade .fade-slide .swiper-content .right {
+    width: 98px;
+  }
+  .first-bg .container .building-technology h2 {
+    font-size: 30px;
+  }
+  .first-bg .container .steps h2 {
+    font-size: 30px;
+  }
+  .first-bg .container .steps .steps-items .item .item-text .item-text-title {
+    font-size: 16px;
+  }
+  .first-bg .container .steps .steps-items .item .item-text .item-text-info {
+    font-size: 16px;
+  }
+  .first-bg .container .slider h2 {
+    font-size: 30px;
+  }
+  .first-bg .container .guarantees h2 {
+    font-size: 30px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-text .title,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-text .title {
+    font-size: 16px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-text .info,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-text .info {
+    font-size: 14px;
+  }
+  .first-bg .container .guarantees .second-guarantees .first-item .title,
+  .first-bg .container .guarantees .second-guarantees .second-item .title,
+  .first-bg .container .guarantees .second-guarantees .third-item .title {
+    font-size: 16px;
+  }
+  .first-bg .container .guarantees .second-guarantees .first-item .image,
+  .first-bg .container .guarantees .second-guarantees .second-item .image,
+  .first-bg .container .guarantees .second-guarantees .third-item .image {
+    width: 100px;
+    height: 100px;
+  }
+  .first-bg .container .guarantees .second-guarantees .first-item .info,
+  .first-bg .container .guarantees .second-guarantees .second-item .info,
+  .first-bg .container .guarantees .second-guarantees .third-item .info {
+    font-size: 14px;
+  }
+  .first-bg .container .guarantees .active .btn {
+    width: 290px;
+  }
+  .first-bg .container .form .text h2 {
+    font-size: 30px;
+  }
+  .first-bg .container .form .text input {
+    font-size: 16px;
+  }
+  .first-bg .container .excursion {
+    overflow: hidden;
+  }
+  .first-bg .container .excursion .active h2 {
+    font-size: 30px;
+    max-width: 486px;
+    width: 100%;
+  }
+  .first-bg .container .excursion .active .excursion-text {
+    font-size: 16px;
+    max-width: 486px;
+    width: 100%;
+  }
+  .first-bg .container .excursion .active .btn {
+    width: 290px;
+  }
+  .first-bg .container .excursion .image .map {
+    position: relative;
+    width: 600px;
+    height: 443px;
+    overflow: hidden;
+  }
+  .first-bg .container .excursion .image .map img {
+    position: absolute;
+    left: -145px;
+    top: -66px;
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .one-bg .header {
+    padding-right: 50px;
+  }
+  .one-bg .header .phone {
+    display: none;
+  }
+  .one-bg .header .burger {
+    margin-right: 0;
+  }
+  .first-bg .container .steps .steps-items {
+    grid-template-columns: 1fr;
+  }
+  .first-bg .container .form .image {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .first-bg .container .building-technology .technologies {
+    width: 290px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-one {
+    top: 53px;
+    left: -163px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-two {
+    top: 150px;
+    left: -12px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-three {
+    top: 225px;
+    left: 110px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-four {
+    right: 96px;
+    bottom: 115px;
+  }
+  .first-bg .container .building-technology .technologies .arrows-five {
+    right: 71px;
+    top: 67px;
+  }
+  .first-bg .container .building-technology .technologies .technology-show {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .first-bg .container .excursion .image .map {
+    position: relative;
+    width: 350px;
+    height: 443px;
+    overflow: hidden;
+  }
+  .first-bg .container .excursion .image .map img {
+    position: absolute;
+    left: -307px;
+    top: -66px;
+    height: 100%;
+    width: auto;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-image,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-image {
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-image img,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-image img {
+    width: 35px;
+    height: 36px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-text .title,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-text .title {
+    margin-bottom: 10px;
+  }
+  .first-bg .container .guarantees .first-guarantees .second-item .item-image img {
+    width: 29px;
+    height: 35px;
+  }
+  .popup {
+    padding: 54px 0 21px 0;
+  }
+}
+@media screen and (max-width: 326px) {
+  .one-bg .container .main .down-text,
+  .one-bg .container .main .down-icon {
+    display: none;
+  }
+  .first-bg .container .steps .steps-items .item:nth-child(odd) {
+    width: 272px;
+  }
+  .first-bg .container .steps .steps-items .item:nth-child(4) {
+    width: 252px;
+  }
+  .first-bg .container .steps .steps-items .item:nth-child(6) {
+    width: 232px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item,
+  .first-bg .container .guarantees .first-guarantees .second-item {
+    padding: 20px 0 20px 20px;
+    align-items: flex-start;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-image,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-image {
+    margin-right: 20px;
+  }
+  .first-bg .container .guarantees .first-guarantees .first-item .item-text,
+  .first-bg .container .guarantees .first-guarantees .second-item .item-text {
+    width: 214px;
+  }
+  .first-bg .container .guarantees .second-guarantees .second-item,
+  .first-bg .container .guarantees .second-guarantees .first-item,
+  .first-bg .container .guarantees .second-guarantees .third-item {
+    width: 260px;
+    margin: 0 auto;
+  }
+  .first-bg .container .guarantees .second-guarantees .second-item {
+    order: 1;
+  }
+  .first-bg .container .guarantees .second-guarantees .first-item {
+    order: 2;
+    margin: 40px auto;
+  }
+  .first-bg .container .guarantees .second-guarantees .third-item {
+    order: 3;
+  }
+}
