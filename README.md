@@ -1,2 +1,2 @@
 # Construction-of-houses
-https://minullinilfat.github.io/construction-of-houses/
+https://minullinilfat.github.io/Construction-of-houses/
